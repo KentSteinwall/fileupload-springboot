@@ -1,0 +1,114 @@
+Map is an interface that HashMap implements. The difference is that in the second implementation your reference to the HashMap will only allow the use of functions defined in the Map interface, while the first will allow the use of any public functions in HashMap (which includes the Map interface).
+
+.sort()
+
+String is immutable whereas StringBuffer and StringBuider are mutable classes.
+
+NoSQL databases are gaining large popularity these days due to their capacity to integrate big data, low cost, easy scalability, and open source features. However, it is still a relatively young technology and lacks standardization, 
+unlike SQL. Lack of ACID compliance is also a concern with NoSQL
+
+In this scenario, SQL databases are faster than their NoSQL counterparts for joins, queries, updates, etc. On the other hand, NoSQL databases are specifically designed for unstructured data which can be document-oriented, 
+column-oriented, graph-based, etc
+
+HashMap is the implementation of Map, but it doesn't maintain any order.
+
+Advantage of Garbage Collection
+It makes java memory efficient because garbage collector removes the unreferenced objects from heap memory.
+It is automatically done by the garbage collector(a part of JVM) so we don't need to make extra efforts.
+
+public class TestGarbage1{  
+ public void finalize(){System.out.println("object is garbage collected");}  
+ public static void main(String args[]){  
+  TestGarbage1 s1=new TestGarbage1();  
+  TestGarbage1 s2=new TestGarbage1();  
+  s1=null;  
+  s2=null;  
+  System.gc();  
+ }  
+} 
+
+Java Object finalize() Method
+Finalize() is the method of Object class. This method is called
+just before an object is garbage collected 
+
+Set<String> hash_Set = new HashSet<String>();
+HashMap<String,String>  a = new HasMap<String,String>();
+Map map=new HashMap(); 
+ArrayList<String> a= new ArrayList<String>();
+ 
+Select *from customer where id =0
+Select * from customer order by country
+Insert into customer (id, name) values ('1','kent'):
+Update customer set id =2
+Delete from customer where id =4
+Select min(prize) as value from priduct
+Select order. I'd, customer. Id from order inner join customer on order. Id=customer. Id
+Select count (name), country from customer group by country
+Having count (I'd) >5
+
+Inheritance parent child relationship can assess variables and methods in parent class
+Encapsulation binding property and methods into single entity-school bag
+Private access modifiers
+Abstraction only showing essential parts hiding implemention details - atm machine
+Interface
+Abstraction classes
+Polymorphism performing same task in different ways - person who speak different language
+Method overloading
+Method overriding
+Oop is a methodology to design programs using class and object
+Object is a real world entity
+Class is a blueprint of an object
+
+class A
+{int secondhightiest(int a[], int b)
+     {int temp=0;
+       Int i, j;
+       For(i=0;i<b;i++)
+       {For(j=i+1;i<b;i++)
+{.      IF (a[i]<a[j])
+{.      temp =a[i] ;
+         a[i]=a [j] ;
+         a[j] =temp
+}
+}
+}
+      return a[1];
+}
+}
+class B
+{public static void main (String arg[] )
+A a=new A() ;
+int array[] ={1,4,8,4,3,7}
+int size =array. length ;
+System. out. print (a. secondhighest(array, size ) ) ;
+}
+Singleton design pattern
+Mvc
+
+
+
+
+LinkedList<String> object = new LinkedList<String>(); 
+Queue<Integer> q = new LinkedList<>(); 
+Stack<Integer> stack = new Stack<Integer>();
+
+Queue is a collection of one or more elements arranged in memory in a contiguous fashion. A linked list is a collection of one or more elements arranged in memory in a dis-contiguous fashion. ... In Queue, only one and single 
+type of information is stored because static Queue implementation is through Array.
+
+difference bitween typescript and javascript
+JavaScript is a scripting language which helps you create interactive web pages whereas Typescript is a superset of JavaScript. Typescript code needs to be compiled while JavaScript code doesn't need to compile. Typescript supports a feature 
+of prototyping while JavaScript doesn't support this feature
+
+Difference between TypeScript and JavaScript: TypesScript is known as Object oriented programming language whereas JavaScript is a scripting language. TypeScript has a feature known as Static typing but JavaScript does not have this feature. ...
+TypeScript has Interface but JavaScript does not have Interface
+
+Hibernate
+Hibernate ORM is an object-relational mapping tool for the Java programming language. It provides a framework for mapping an object-oriented domain model to a relational database
+
+The main difference between Oracle and MySQL is the fact that MySQL is open source, while Oracle is not. However, Oracle is considered to be much more powerful a software than MySQL. Oracle offers
+inline views, role based security, advanced replication, etc., while MySQL does not.
+
+Threads can be created by using two mechanisms :
+1. Extending the Thread class
+2. Implementing the Runnable Interface
+
